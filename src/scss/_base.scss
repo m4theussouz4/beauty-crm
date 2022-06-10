@@ -1,0 +1,29 @@
+*, :after, :before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+button {
+    background: var(--color-dark-blue);
+    padding: 1rem;
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 4px;
+}
+  
+button[disabled] {
+    background: var(--color-inactive);
+}
